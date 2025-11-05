@@ -46,7 +46,7 @@ aws-dynamodb-flask-app/
 1. **Clone the repository**:
 
 ```bash
-git clone 
+git clone https://github.com/ritesh355/aws-dynamodb-flask-app.git
 cd aws-dynamodb-flask-app
 ```
 
