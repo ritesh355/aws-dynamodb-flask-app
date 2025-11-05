@@ -111,7 +111,11 @@ python app.py
 ```
 http://127.0.0.1:5000/
 ```
+0r 
 
+```
+http://localhost:5000/
+```
 ---
 
 ## DynamoDB Table Structure
