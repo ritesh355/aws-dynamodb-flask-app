@@ -44,6 +44,7 @@ aws-dynamodb-flask-app/
 ## Setup Instructions
 
 1. **Clone the repository**:
+![](images/git1.png)
 
 ```bash
 git clone https://github.com/ritesh355/aws-dynamodb-flask-app.git
@@ -51,6 +52,8 @@ cd aws-dynamodb-flask-app
 
 ```
 2. **Configure AWS credentials** (for DynamoDB access):
+
+
 
 ```bash
 aws configure
@@ -75,6 +78,8 @@ You should see your account info.
 
 3.  **Create DynamoDB Table**
 run this command in your terminal after aws configure
+
+
 ```
 aws dynamodb create-table \
     --table-name Users \
@@ -83,6 +88,8 @@ aws dynamodb create-table \
     --billing-mode PAY_PER_REQUEST \
     --region ap-south-1
 ```
+![](images/gitt.png)
+
 NOW tpye **ctrl+c** 
 then you redirect to your terminal then type **exit** 
 
@@ -93,7 +100,7 @@ cd aws-dynamodb-flask-app
 ---
 
 4. **Create a virtual environment**:
-
+![](images/git2.png)
 ```bash
 python3 -m venv venv
 source venv/bin/activate  # Linux/macOS
@@ -101,7 +108,7 @@ venv\Scripts\activate     # Windows
 ```
 
 5. **Install dependencies**:
-
+![](images/git3.png)
 ```bash
 python -m pip install --upgrade pip
 pip install -r requirements.txt
