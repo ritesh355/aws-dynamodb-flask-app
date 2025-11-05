@@ -83,6 +83,15 @@ aws dynamodb create-table \
     --billing-mode PAY_PER_REQUEST \
     --region ap-south-1
 ```
+NOW tpye **ctrl+c** 
+then you redirect to your terminal then type **exit** 
+
+then again 
+```
+cd aws-dynamodb-flask-app
+```
+---
+
 4. **Create a virtual environment**:
 
 ```bash
