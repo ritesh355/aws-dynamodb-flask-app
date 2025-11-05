@@ -87,7 +87,7 @@ You should see your account info.
 
 ---
 
-## : Create DynamoDB Table
+5.  **Create DynamoDB Table**
 run this command in your terminal after aws configure
 ```
 aws dynamodb create-table \
@@ -98,13 +98,13 @@ aws dynamodb create-table \
     --region ap-south-1
 ```
 
-5. **Run the Flask app**:
+6. **Run the Flask app**:
 
 ```bash
 python app.py
 ```
 
-6. **Open in browser**:
+7. **Open in browser**:
 
 ```
 http://127.0.0.1:5000/
