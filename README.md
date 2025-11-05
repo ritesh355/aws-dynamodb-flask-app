@@ -121,6 +121,8 @@ pip install -r requirements.txt
 ```bash
 python app.py
 ```
+![](images/git6.png)
+
 
 7. **Open in browser**:
 
@@ -133,6 +135,7 @@ http://127.0.0.1:5000/
 http://localhost:5000/
 ```
 ---
+![](images/crud.png)
 
 ## DynamoDB Table Structure
 
