@@ -4,8 +4,9 @@ A simple **Flask + AWS DynamoDB CRUD application** to manage tasks with a clean 
 
 ---
 
-![](images/.png)
+![](images/project.png)
 
+---
 ## Project Structure
 
 ```
