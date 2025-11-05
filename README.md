@@ -4,10 +4,12 @@ A simple **Flask + AWS DynamoDB CRUD application** to manage tasks with a clean 
 
 ---
 
+![](images/.png)
+
 ## Project Structure
 
 ```
-10-aws-dynamodb-flask-app/
+aws-dynamodb-flask-app/
 │
 ├── app.py                     # Main Flask application
 ├── requirements.txt           # Python dependencies
@@ -97,9 +99,6 @@ http://127.0.0.1:5000/
 
 ---
 
-## Screenshots
-
-*(Optional: Add screenshots of your UI here)*
 
 ---
 
