@@ -1,4 +1,4 @@
-# 10-aws-dynamodb-flask-app
+# aws-dynamodb-flask-app
 
 A simple **Flask + AWS DynamoDB CRUD application** to manage tasks with a clean UI using Bootstrap. This app allows you to **Add, Edit, and Delete tasks** stored in a DynamoDB table.
 
@@ -43,8 +43,8 @@ A simple **Flask + AWS DynamoDB CRUD application** to manage tasks with a clean 
 1. **Clone the repository**:
 
 ```bash
-git clone <repository-url>
-cd 10-aws-dynamodb-flask-app
+git clone 
+cd aws-dynamodb-flask-app
 ```
 
 2. **Create a virtual environment**:
