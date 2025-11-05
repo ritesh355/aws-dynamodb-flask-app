@@ -70,6 +70,34 @@ pip install -r requirements.txt
 aws configure
 ```
 
+
+
+  - **AWS Access Key ID**: Your IAM user access key
+
+  -  **AWS Secret Access Key:** Your IAM secret key
+
+  -  **Default region name:** ap-south-1 (or wherever you want the table)
+
+  - **Default output format:** json
+  - Check config:
+```
+aws sts get-caller-identity
+```
+You should see your account info.
+
+---
+
+## : Create DynamoDB Table
+run this command in your terminal after aws configure
+```
+aws dynamodb create-table \
+    --table-name Users \
+    --attribute-definitions AttributeName=TaskID,AttributeType=S \
+    --key-schema AttributeName=TaskID,KeyType=HASH \
+    --billing-mode PAY_PER_REQUEST \
+    --region ap-south-1
+```
+
 5. **Run the Flask app**:
 
 ```bash
